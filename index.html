@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<title>
+    Official Site
+</title>
+<script src="https://kit.fontawesome.com/692d1a25ef.js" crossorigin="anonymous"></script>
+ <!---Style Code-->
+ <style>
+        p{
+            font-size: 50px;
+            font-style:bold;
+            text-align: center;
+            color:ghostwhite;  
+        } 
+        *{
+          margin: 0%;
+          padding: 0%;
+          box-sizing: border-box;
+        }
+        .MenuDrop{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          list-style-type: none;
+        }
+        a{
+          font-size: 30px;
+          color: white;
+          display: block;
+          width: 300px;
+          background-color:black;
+          padding: 10px 0;
+          font-size: 1.2rem;
+          text-decoration: none;
+          text-align: center;
+          
+        }
+        a:hover{
+          background-color: lightblue;
+        }
+        .Social{
+          list-style-type: none;
+          display: none;
+        }
+        .MenuDrop li:nth-child(2):hover .Social{
+          display: block;
+        }
+        .Dev{
+           list-style-type: none;
+           display: none;
+        }
+        .MenuDrop li:nth-child(4):hover .Dev{
+          display: block;
+        }
+</style>
+<link rel="stylesheet" href="style/Style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,0">  
+</head>
+<body>
+
+    <p>
+         Durga Yarns    
+    </p>
+    <hr color="red" width="auto">
+    <!--Ui-->   
+<div id="Menu">
+  <ul class="MenuDrop">
+   <li><a href="./index.html">Home</a></li>
+   <li><a href="#">Social Media</a>
+    <ul class="Social">
+      <li><a href="#">FaceBook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </li>
+   <li><a href="./index.html">About us</a></li>
+   <li><a href="./index.html">Website Dev Contact</a>
+    <ul class="Dev">
+      <li><a href="https://discord.gg/4QgfwCpaPz">Discord</a></li>
+      <li><a href="https://www.instagram.com/420_varun_yt/">Instagram</a></li>
+      <li><a href="https://twitter.com/Varun_G_0">Twitter</a></li>
+    </ul></li>
+   </ul>
+ 
+   </div>
+ <!--Ui bar list End-->
+
+    
+</body>
